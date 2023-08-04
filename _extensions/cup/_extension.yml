@@ -14,9 +14,11 @@ contributes:
         - cup-logo-new.pdf
       include-in-header: header.tex
       number-sections: true
+      cite-method: biblatex
       template-partials:
         - "partials/title.tex"
         - "partials/_print-author.tex"
+        - "partials/after-body.tex"
     html:
       css: styles.css
 
