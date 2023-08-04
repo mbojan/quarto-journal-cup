@@ -3,7 +3,7 @@ title: Cup Template
 format:
   cup-pdf:
     keep-tex: true  
-  cup-html: default
+#  cup-html: default
 author:
   - name: Sarah Malloc
     affiliations:
@@ -13,7 +13,7 @@ author:
         city: Boston
         country: USA
         postal-code: 02210-1022
-      - A second affilication
+      - A second affiliation
     orcid: 0000-0000-0000-0000
     email: sm@example.org
     url: https://example.org/
@@ -26,8 +26,14 @@ keywords: [template, demo]
 bibliography: bibliography.bib  
 ---
 
-## Introduction {#sec-intro}
+
+
+# Introduction {#sec-intro}
 
 *TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
 
 
+
+# Citing {#sec-citing}
+
+Here we cite the work by @CameronTrivedi2013 which they wrote [@CameronTrivedi2013].
