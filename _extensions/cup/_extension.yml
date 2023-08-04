@@ -9,7 +9,12 @@ contributes:
       filters:
         - cup.lua
     pdf:
+      documentclass: cup-journal
+      format-resources:
+        - cup-journal.cls
+        - cup-logo-new.pdf
       include-in-header: header.tex
+      number-sections: true
     html:
       css: styles.css
 
