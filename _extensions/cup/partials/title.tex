@@ -3,3 +3,11 @@
 \title{$title$}
 
 $for(by-author)$$_print-author.tex()$$endfor$
+
+$if(keywords)$
+\keywords{$for(keywords)$$keywords/lowercase$$sep$, $endfor$}
+$endif$
+
+$if(bibliography)$
+$for(by-bibliography)$\addbibresource{$bibliography$}$endfor$
+$endif$
