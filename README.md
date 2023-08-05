@@ -1,6 +1,6 @@
 # Quarto extension for Cambridge University Press journals
 
-> This is still underdeveloped WIP that I created without knowing
+> This is an underdeveloped WIP that I created without knowing
 https://github.com/christopherkenny/cambridge-medium, which you should use
 instead of this one.
 
