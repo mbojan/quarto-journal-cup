@@ -1,14 +1,16 @@
+# Quarto extension for Cambridge University Press journals
 
-# <%= title %>
+> This is still underdeveloped WIP that I created without knowing
+https://github.com/christopherkenny/cambridge-medium, which you should use
+instead of this one.
 
 ## Creating a New Article
 
 To create a new article using this format:
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto use template <github-organization>/<%= filesafename %>
+quarto use template mbojan/quarto-journal-cup
 ```
 
 This will create a new directory with an example document that uses this format.
@@ -17,24 +19,15 @@ This will create a new directory with an example document that uses this format.
 
 To add this format to an existing document:
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto add <github-organization>/<%= filesafename %>
+quarto add mbojan/quarto-journal-cup
 ```
 
 Then, add the format to your document options:
 
 ```yaml
 format:
-  <%= filesafename %>-pdf: default
+  cup-pdf: default
 ```    
-
-## Options
-
-*TODO*: If your format has options that can be set via document metadata, describe them.
-
-## Example
-
-Here is the source code for a minimal sample document: [template.qmd](template.qmd).
 
