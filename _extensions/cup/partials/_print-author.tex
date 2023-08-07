@@ -1,7 +1,7 @@
 
 \author{$it.name.literal$}
 
-\affiliation{$for(it.affiliations/first)$$it.name$$if(it.department)$, $it.department$$endif$$if(it.address)$, $it.address$$endif$$if(it.city)$, $it.city$$endif$$if(it.postal-code)$, $it.postal-code$$endif$$if(it.country)$, $it.country$$endif$$endfor$}
+\affiliation{$for(it.affiliations/first)$$if(it.department)$$it.department$, $endif$$it.name$$if(it.address)$, $it.address$$endif$$if(it.city)$, $it.city$$endif$$if(it.postal-code)$, $it.postal-code$$endif$$if(it.country)$, $it.country$$endif$$endfor$}
 $for(it.affiliations/rest)$
 \alsoaffiliation{${it.name}}
 $endfor$
